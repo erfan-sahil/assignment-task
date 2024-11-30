@@ -3,8 +3,8 @@ import icon from "../../../../public/image 1.png";
 import Image from "next/image";
 const Header = () => {
   return (
-    <div className="bg-transparent flex justify-between items-center mx-20 my-10">
-      <Image className="h-[70px] w-[200px]" src={icon}></Image>
+    <div className="bg-transparent flex justify-between items-center mx-20 py-4">
+      <Image alt="icon" className="h-[50px] w-[160px]" src={icon}></Image>
 
       <div>
         <ul className="flex items-center gap-8">
